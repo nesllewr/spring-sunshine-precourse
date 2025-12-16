@@ -1,0 +1,18 @@
+app:
+  llm-cost:
+    input-per-1k: 0.00015
+    output-per-1k: 0.00060
+
+sunshine:
+  llm:
+    enabled: true
+
+spring:
+  application:
+    name: spring-sunshine
+  ai:
+    google:
+      genai:
+        api-key: {YOUR_API_KEY}
+        chat.options.model: gemini-2.5-flash-lite
+
